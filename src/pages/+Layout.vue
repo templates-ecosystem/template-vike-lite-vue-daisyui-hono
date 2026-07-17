@@ -1,30 +1,7 @@
 <template>
-  <div style="display: flex; max-width: 900px; margin: auto;">
-    <div id="sidebar" style="
-        padding: 20px;
-        flex-shrink: 0;
-        display: flex;
-        flex-direction: column;
-        line-height: 1.8em;
-        border-right: 2px solid #eee;
-      ">
-      <Link href="/">Welcome</Link>
-    </div>
-
-    <div id="page-container">
-      <div id="page-content" style="
-          padding: 20px;
-          padding-bottom: 50px;
-          min-height: 100vh;
-        ">
-        <slot />
-      </div>
-    </div>
-  </div>
+  <Layout />
 </template>
 
 <script setup lang="ts">
-import '../layouts/styles.css'
-import '../layouts/tailwind.css'
-import Link from '@/components/Link.vue'
+import Layout from '@/components/Layout.vue'
 </script>
