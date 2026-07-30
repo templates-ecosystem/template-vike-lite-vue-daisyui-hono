@@ -32,8 +32,6 @@
     "eslint-plugin-unicorn": "^72.0.0",
     "eslint-plugin-vue": "^10.9.2",
     "hono": "^4.12.30",
-    "rolldown": "^1.2.0",
-    "standaloner": "^0.3.3",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.64.0",
