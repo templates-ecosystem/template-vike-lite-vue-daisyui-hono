@@ -24,7 +24,7 @@
 </template>
 
 <script setup lang="ts">
-import '@/styles/styles.css'
-import '@/styles/tailwind.css'
-import Link from './Link.vue'
+  import '@/styles/styles.css'
+  import '@/styles/tailwind.css'
+  import Link from './Link.vue'
 </script>

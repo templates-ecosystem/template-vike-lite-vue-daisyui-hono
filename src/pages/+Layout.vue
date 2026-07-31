@@ -1,5 +1,7 @@
 <template>
-  <Layout />
+  <Layout>
+    <slot />
+  </Layout>
 </template>
 
 <script setup lang="ts">

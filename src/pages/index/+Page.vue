@@ -1,18 +1,16 @@
 <template>
   <h1>App: Vike Lite + Vue</h1>
 
-  <input
-    type="checkbox"
-    class="checkbox"
-    v-model="isChecked"
-  />
+  <div class="divider divider-neutral"></div>
 
-  <br />
+  <Checkbox />
 
-  The checkbox is: {{ isChecked ? 'checked' : 'unchecked' }}
+  <div class="divider divider-neutral"></div>
+
+  <CallApi />
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue'
-const isChecked = ref(true)
+  import Checkbox from '@/components/Checkbox.vue'
+  import CallApi from '@/components/CallApi.vue'
 </script>
